@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/azizu/IdeaProjects/TestngBatch2/src/class2/SoftAssertDemo2.java">
+        <classes>
+            <class name="class2.DependOnMethodDemo2">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="loginMethod"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
