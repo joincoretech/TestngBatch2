@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/azizu/IdeaProjects/TestngBatch2/src">
+        <classes>
+            <class name="class1.BeforeAfterClassDemo">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                </methods>
+            </class>
+            <class name="class1.BeforeAfterDemo">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                    <include name="thirdMethod"/>
+                </methods>
+            </class>
+            <class name="class1.LoginDemo">
+                <methods>
+                    <include name="loginMethod"/>
+                </methods>
+            </class>
+            <class name="class1.PriorityDemo">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                </methods>
+            </class>
+            <class name="class1.Task1">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                </methods>
+            </class>
+            <class name="class1.TestDemo1">
+                <methods>
+                    <include name="hello"/>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+            <class name="class2.AssertDemo2">
+                <methods>
+                    <include name="validateTitle"/>
+                    <include name="loginTextValidation"/>
+                </methods>
+            </class>
+            <class name="class2.AssertionDemo1">
+                <methods>
+                    <include name="assertionMethod"/>
+                </methods>
+            </class>
+            <class name="class2.DependOnMethodDemo2">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="loginMethod"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="class2.DependOnMthodDemo1">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+            <class name="class2.EnableDisableDemo">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                </methods>
+            </class>
+            <class name="class2.EnabledDemo2">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="validateTitle"/>
+                    <include name="loginMethod"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertDemo1">
+                <methods>
+                    <include name="softAssertMethod"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertDemo2">
+                <methods>
+                    <include name="validateTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

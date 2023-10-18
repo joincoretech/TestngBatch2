@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="class3.ListenerDemo"/>
+    </listeners>
+
+    <test name="login page test">
+
+        <groups>
+            <run>
+                <include name="sprint1"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="class3"/>
+        </packages>
+    </test>
+</suite>

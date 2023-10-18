@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class BeforeAfterDemo {
 
-    @Test
+    @Test(groups = "smoke")
     public void firstMethod(){
         System.out.println("first method");
     }
